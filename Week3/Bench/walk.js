@@ -57,7 +57,7 @@ function create(color, dx, dy) {
 // TODO: implement the update function
 function update(ball, x, y) {
   moveTo(ball, x, y);
-  setTimeout(function () {
+  setTimeout(function() {
     changeDirectionIfNecessary(ball, x, y);
     update(ball, x + ball.dx, y + ball.dy);
   }, 1000 / 60);
