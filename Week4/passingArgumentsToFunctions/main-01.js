@@ -22,6 +22,8 @@ console.log(compareCities({},{}))
 console.log(compareCities({name:'San Jose'},{name:'San Jose'}))
 console.log(compareCities({name:'San Jose'},{otherkey:'San Jose'}))
 
+// I feel like this shouldn't have passed, but it did. The third test feels like it should have evaluated to false, but it didn't, and I don't understand why.
+
 //don't change this line
 if (typeof module !== 'undefined') {
   module.exports = {
