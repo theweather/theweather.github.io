@@ -31,3 +31,6 @@
   }`
 ### More info [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
+## PAY ATTENTION TO:
+### - Variable Scope!
+### - You can pass functions as objects, in arrays, etc!
