@@ -15,7 +15,9 @@ let obj;
 
 function graffitiReports(zip) {
 	matching = chicago.data.filter(function(report){
-		return report[16] === zip;
+		// ---------------------------
+		//		YOUR CODE
+		// ---------------------------
 	});
 
 	obj = {};
@@ -31,13 +33,6 @@ window.onload = function(){
     const dataset = generateDataset(graffiti);	
     drawChart(dataset);
 };
-
-// test graffiti reports for a zip code
-let count = 0;
-chicago.data.forEach(function(report){
-	if(report[16] === '60652') count++;
-});
-console.log(count);
 
 </script>
 </html>

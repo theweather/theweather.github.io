@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="zipCodes.js"></script>
+<script src="graffiti_july_2015.js"></script>
+<script src="graffiti_chart.js"></script>
+
+<div id="chart_div" style="width: 1024px; height: 1600px;"></div>
+
+<script>
+
+    const graffiti = [];
+    let matching;
+    let obj;
+
+    function graffitiReports(zip) {
+    	matching = chicago.data.filter(function(report){
+    		return report[16]===zip;
+    	});
+
+    	obj = {};
+    	obj.zip = zip;
+    	obj.reports = matching.length;
+    	graffiti.push(obj);
+    }
+
+    zipCodes.forEach(graffitiReports);
+
+    // graph graffiti reports data
+    window.onload = function(){
+        const dataset = generateDataset(graffiti);        
+        drawChart(dataset);
+    };
+
+    // test graffiti reports for a zip code
+    let count = 0;
+    chicago.data.forEach(function(report){
+    	if(report[16] === '60639') count++;
+    });
+    console.log(count);
+
+</script>
+</html>
