@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<script>
+
+const employees = [
+    {name: 'peter', salary: '100000'},
+    {name: 'bruce', salary: '125000'},
+    {name: 'hanna', salary: '250000'}
+];
+
+let salaries = 0;
+function add(item, counter, array){
+    salaries += Number(item.salary);
+}
+
+employees.forEach(add);
+
+console.log(salaries);
+
+</script>
+</html>
