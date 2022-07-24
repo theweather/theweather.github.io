@@ -1,0 +1,20 @@
+{
+  "name": "greet",
+  "version": "1.0.0",
+  "description": "Testing Hello World",
+  "main": "greeting.js",
+  "dependencies": {
+    "course-utilities": "^1.0.0",
+    "jest": "^26.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theweather/Week7greeting.git"
+  },
+  "author": "skjacques@gmail.com",
+  "homepage": "https://github.com/theweather/Week7#readme"
+}
