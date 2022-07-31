@@ -1,0 +1,23 @@
+{
+  "name": "mitfacts",
+  "version": "1.0.0",
+  "description": "Testing MIT facts",
+  "main": "mit.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kogsio/mitfacts.git"
+  },
+  "author": "abel@mit.edu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kogsio/mitfacts/issues"
+  },
+  "homepage": "https://github.com/kogsio/mitfacts#readme",
+  "dependencies": {
+    "course-utilities": "^1.0.0",
+    "jest": "^26.1.0"
+  }
+}
