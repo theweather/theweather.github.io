@@ -10,6 +10,6 @@
 
 ### Remember that grid lines starts at 1, not zero, so the farthest left or top line (depending on rows or columns) is 1. For 6 columns or rows, there are 7 lines.
 
-## Resources Leveragable By Inclusion In A Tag In A HTML Document
-
-### 
+## Fonts
+### [Fonts at W3] (https://www.w3schools.com/cssref/pr_font_font.asp)
+### [Google Fonts] (https://fonts.google.com/)
