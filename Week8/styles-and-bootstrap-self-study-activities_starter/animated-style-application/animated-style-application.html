@@ -125,7 +125,38 @@
         <div id="n100">100</div>
     </main>
     <script>
-
+        let limit = 100;
+        let squarenumber = 1;
+        function toggle(limit) {
+            for (let i = 0; i < limit; i++) {
+                if (squarenumber <= limit) {
+                    const elementOn = document.getElementById('n' + squarenumber);
+                    elementOn.classList.add('on');
+                    console.log('Style added.')
+                    console.log('Here is the ON number: ' + squarenumber);
+                    if (squarenumber > 1) {
+                        const elementOff = document.getElementById('n' + (squarenumber-1));
+                        elementOff.classList.remove('on');
+                        console.log('Style removed.')
+                        console.log('Here is the OFF number: ' + squarenumber);
+                    };
+                    return squarenumber++;
+                } else {
+                    console.log('Done-zo.');
+                    return;
+                };
+            };
+        };
+        let timer = null;
+        function move() {
+            timer = setTimeout(() => {
+                toggle(limit);
+                console.log('hello from timer');
+                if (squarenumber <= limit) {
+                    move();
+                };
+            }, 100);
+        };
     </script>
 </body>
 </html>
