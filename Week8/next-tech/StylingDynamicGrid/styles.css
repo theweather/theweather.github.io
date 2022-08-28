@@ -1,0 +1,17 @@
+.on {
+  background: orange;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 5px;
+}
+
+div {
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  font-size: 1em;
+}

@@ -13,3 +13,6 @@
 ## Fonts
 ### [Fonts at W3] (https://www.w3schools.com/cssref/pr_font_font.asp)
 ### [Google Fonts] (https://fonts.google.com/)
+
+## Duplicating Elements
+### As seen in the eyeball exercise, elements can be duplicated to make ones that move together.
