@@ -37,7 +37,32 @@
         <div id="s12">12</div>  
     </main>
     <script>
-        
+        let limit = 12;
+        let squarenumber = 1;
+        function toggle(limit) {
+            for (let i = 0; i < limit; i++) {
+                if (squarenumber <= limit) {
+                    const element = document.getElementById('s' + squarenumber);
+                    element.classList.add('on');
+                    console.log('Style added.')
+                    console.log('Here is the number: ' + squarenumber);
+                    return squarenumber++;
+                } else {
+                    console.log('Done-zo.');
+                    return;
+                };
+            };
+        };
+        let timer = null;
+        function move() {
+            timer = setTimeout(() => {
+                toggle(limit);
+                console.log('hello from timer');
+                if (squarenumber <= limit) {
+                    move();
+                };
+            }, 500);
+        };
     </script>
 </body>
 </html>
