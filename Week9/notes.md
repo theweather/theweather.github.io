@@ -10,3 +10,6 @@
 
 ### Representing the evetual completion or failure of an asynch action and its resulting values.
 
+### Await is used to wait for a promise; makes it so sequential and async can both be used.
+
+### Async can save a lot of performance and UX in the browser. 
