@@ -1,0 +1,48 @@
+<html>
+  <script src="./permute.js"></script>
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 60px);
+      grid-template-rows: repeat(1, 60px);
+      grid-gap: 10px;
+    }
+    .box {
+      background-color: #444;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 150%;
+    }
+  </style>
+  <button onclick="step()">Step</button>
+  <div id="grid" class="grid">
+    <div class="box 1">a</div>
+    <div class="box 2">b</div>
+    <div class="box 3">c</div>
+    <div class="box 4">d</div>
+  </div>
+  <script>
+    const A = "abcd";
+    const mlen = 3; // matrix length
+    let icount = 0;
+    const permuations = [];
+    const tagArray = [];
+    let tag = document.getElementsByClassName("box");
+    let len = tag.length;
+    for (let i = 0; i < len; i++) {
+      tagArray[i] = tag.item(i); // get a handle on divs
+      console.log(tag.item(i).innerText);
+    }
+
+    function setTags(permutation) {
+      //
+      // enter code here
+      //
+    }
+    function step() {
+      setTags(permutations[icount++]);
+    }
+    const permutations = permute(A);
+  </script>
+</html>
