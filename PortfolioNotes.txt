@@ -1,0 +1,26 @@
+In your GitHub Portfolio Project you’ll create a personal website to highlight your experience and code projects. As part of your portfolio, you will highlight three coding projects that you encounter in this course:
+
+Week 7: PacMen Exercise
+Week 8: Eye Exercise
+Week 9: Real Time Bus Tracker Exercise
+You may review this module for videos, instructions, and rubrics on what you should include in your portfolio, what you will be evaluated on, and how to upload the links to your portfolio for grading.
+
+Personality
+Work
+Style
+Share with Employers
+Documented well, it can be a reference.
+
+- Two minute intro video to my portfolio on YouTube
+- Bio, relevant things, repo links, user names in useful places (LinkedIn, etc).
+- Project - descriptions, link to work, link to code, an icon and/or image as appropriate.
+
+Use Bootstrap
+Create navigation bar with pulldowns
+Leverage styles
+Use and modify examples if you want, or start from scratch
+You can also use existing themes
+Plan site structure
+
+GitHub Pages
+- display Readme as front of repo

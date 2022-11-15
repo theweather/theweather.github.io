@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Promises</title>
+  <style>
+  </style>
+</head>
+<body>
+</body>
+<script>
+
+function a() {
+  return new Promise(function(resolve){
+    setTimeout(function(){
+      resolve('a');
+    }, 4000);
+  });
+}
+
+function b() {
+  return new Promise(function(resolve){
+    setTimeout(function(){
+      resolve('b');
+    }, 3000);
+  });
+}
+
+function c() {
+  return new Promise(function(resolve){
+    setTimeout(function(){
+      resolve('c');
+    }, 7000);
+  });
+}
+
+const list = [a, b, c];
+
+for (fn of list) {
+  console.log(fn);
+  fn().then(function(done){
+    console.log(done);
+  });
+}
+</script>
+</html>

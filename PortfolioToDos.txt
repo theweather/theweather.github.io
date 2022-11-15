@@ -1,0 +1,14 @@
+Start with:
+Center content box
+
+Structure repos:
+- Pacmen
+- Eye
+- Bus
+
+On deck - design fav icon
+
+On deck - implement pulldown menus? research accessibility
+
+On deck - Change portfolio to main repo?
+
