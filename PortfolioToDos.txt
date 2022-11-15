@@ -12,3 +12,13 @@ On deck - implement pulldown menus? research accessibility
 
 On deck - Change portfolio to main repo?
 
+On deck - browser-proof background asset, see https://css-tricks.com/perfect-full-page-background-image/
+
+Read https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+Credit https://getbootstrap.com/docs/4.0/components/navbar/#placement
+Credit https://getbootstrap.com/docs/4.0/components/card/
+
+Remember - https://getbootstrap.com/docs/5.2/examples/
+
+
