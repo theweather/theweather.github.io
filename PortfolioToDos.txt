@@ -1,16 +1,18 @@
-Start with:
-Center content box
+Import fonts
 
 Structure repos:
-- Pacmen
-- Eye
+x Pacmen
+x Eye
+- Bus
+
+Commit structure changes to repos:
+x Pacmen
+x Eye
 - Bus
 
 On deck - design fav icon
 
 On deck - implement pulldown menus? research accessibility
-
-On deck - Change portfolio to main repo?
 
 On deck - browser-proof background asset, see https://css-tricks.com/perfect-full-page-background-image/
 
