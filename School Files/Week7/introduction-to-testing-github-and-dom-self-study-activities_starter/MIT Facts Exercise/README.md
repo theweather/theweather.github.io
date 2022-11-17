@@ -1,2 +1,0 @@
-# mitfacts
-MIT Facts
