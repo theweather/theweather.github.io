@@ -6,6 +6,7 @@
 
 body { 
   background: url(../img/bg2.jpg) no-repeat center center fixed; 
+  background-color: #323a45;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,13 +17,13 @@ body {
 
 .bd-placeholder-img {
   font-size: 1.125rem;
-  text-anchor: middle;
+  text-anchor: end;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 400px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
@@ -30,10 +31,10 @@ body {
 
 .b-example-divider {
   height: 3rem;
-  background-color: rgba(0, 0, 0, .1);
+  background-color: (#323a45);
   border: solid rgba(0, 0, 0, .15);
   border-width: 1px 0;
-  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  box-shadow: inset 0 .5em 1.5em rgba(242, 238, 12, 0.1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
 .b-example-vr {
@@ -81,12 +82,84 @@ aside,
 article,
 footer {
   border-style: solid;
-  background: black;
+  background: #323a45;
   font-size: 1;
   margin: 2px;
 }
 article {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+/* Box around video */
+
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(253, 15, 241, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #0585a9;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #8e8e8e;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+  width: 300px;
+  height: 540px;
+  background-color: rgb(5, 208, 83);
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(82, 2, 243, 0.942);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: 25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #c91010;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 400px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
 }

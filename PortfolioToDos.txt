@@ -1,9 +1,10 @@
-Fix bootstrap
-- check the JS file
+Finish creating Assignment Requirements Checklist
 
-Open submission template
+Adjust alignment of box containing video (partially done, need to figure out top/bottom, and evening
 
-Import fonts
+Consider gradients
+
+Figure out defining my site colors in my CSS.
 
 Structure repos:
 x Pacmen
@@ -18,6 +19,8 @@ x Eye
 On deck - design fav icon
 
 On deck - implement pulldown menus? research accessibility
+
+Basic accessibility 101 checks
 
 On deck - browser-proof background asset, see https://css-tricks.com/perfect-full-page-background-image/
 
