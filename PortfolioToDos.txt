@@ -1,4 +1,7 @@
 Fix bootstrap
+- check the JS file
+
+Open submission template
 
 Import fonts
 
