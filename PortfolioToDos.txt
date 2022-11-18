@@ -1,3 +1,5 @@
+Fix bootstrap
+
 Import fonts
 
 Structure repos:
