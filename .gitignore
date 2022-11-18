@@ -1,4 +1,4 @@
 # ignore ALL .txt files
 *.pdf
 *.ai
-index copy.html
+/examples

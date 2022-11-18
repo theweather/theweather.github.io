@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+
 .navbar {
   margin-bottom: 20px;   /*  For nav bar purposes.  */
 }
@@ -9,6 +11,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   padding-bottom: 20px; /*  For nav bar purposes.  */
+  font-family: 'Spectral', serif;
 }
 
 .bd-placeholder-img {
