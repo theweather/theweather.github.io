@@ -4,7 +4,9 @@
   margin-bottom: 20px;   /*  For nav bar purposes.  */
 }
 
-body { 
+body {
+  min-width: 500px;
+  width: 100%;
   background: url(../img/bg2.jpg) no-repeat center center fixed; 
   background-color: #323a45;
   -webkit-background-size: cover;
@@ -76,6 +78,7 @@ body {
 header,
 footer {
   grid-column: 1 / 4;
+  min-width: 500px;
 }
 header,
 aside,
@@ -95,7 +98,7 @@ article {
 /* Box around video */
 
 .container {
-  max-width: 960px;
+  max-width: 450px;
 }
 
 /*
