@@ -1,6 +1,6 @@
 Finish creating Assignment Requirements Checklist
 
-Adjust alignment of box containing video (partially done, need to figure out top/bottom, and evening
+Can I make multiple middle sections?
 
 Consider gradients
 

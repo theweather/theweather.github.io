@@ -5,7 +5,7 @@
 }
 
 body {
-  min-width: 500px;
+  min-width: 610px;
   width: 100%;
   background: url(../img/bg2.jpg) no-repeat center center fixed; 
   background-color: #323a45;
@@ -13,8 +13,15 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-bottom: 20px; /*  For nav bar purposes.  */
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
   font-family: 'Spectral', serif;
+}
+
+.bg-highlight {
+  background-color: rgba(238, 153, 51, 1);
 }
 
 .bd-placeholder-img {
@@ -70,10 +77,11 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 200px 1fr 200px;
+  grid-template-columns: 200px 2fr 200px;
   grid-template-rows: auto 1fr auto;
   gap: 5px;
   /* background: silver; */
+  height: 90vh;
 }
 header,
 footer {
@@ -90,7 +98,7 @@ footer {
   margin: 2px;
 }
 article {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -98,7 +106,7 @@ article {
 /* Box around video */
 
 .container {
-  max-width: 450px;
+  min-width: 600px;
 }
 
 /*
