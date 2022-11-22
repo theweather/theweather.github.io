@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,300&display=swap');
 
 .navbar {
-  margin-bottom: 20px;   /*  For nav bar purposes.  */
+  /* margin-bottom: 20px;   For nav bar purposes.  */
 }
 
 body {
@@ -13,7 +13,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 5px;
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
@@ -77,15 +76,14 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 200px 2fr 200px;
-  grid-template-rows: auto 1fr auto;
+  grid-template: auto 1fr 1fr auto /* row */ / 200px auto 200px /* column */;
   gap: 5px;
   /* background: silver; */
   height: 90vh;
 }
 header,
 footer {
-  grid-column: 1 / 4;
+  grid-column: span 4;
   min-width: 500px;
 }
 header,
@@ -93,14 +91,24 @@ aside,
 article,
 footer {
   border-style: solid;
+  border-color: black;
   background: #323a45;
-  font-size: 1;
-  margin: 2px;
+  font-size: 1rem;
+  /* margin: 2px; */
 }
+
 article {
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  grid-column: 2;
+  font-size: 1rem;
+  color: white;
+}
+
+aside {
+  grid-column: 1, 3;
+  grid-row: span 3;
 }
 
 /* Box around video */
@@ -111,7 +119,7 @@ article {
 
 /*
  * Custom translucent site header
- */
+ 
 
 .site-header {
   background-color: rgba(253, 15, 241, 0.85);
@@ -125,11 +133,11 @@ article {
 .site-header a:hover {
   color: #8e8e8e;
   text-decoration: none;
-}
+} */
 
 /*
  * Dummy devices (replace them with your own or something else entirely!)
- */
+
 
 .product-device {
   position: absolute;
@@ -160,11 +168,11 @@ article {
   left: 5%;
   background-color: #c91010;
 }
+ */
 
 
 /*
  * Extra utilities
- */
 
 .flex-equal > * {
   flex: 1;
@@ -174,3 +182,4 @@ article {
     flex: 1;
   }
 }
+*/
