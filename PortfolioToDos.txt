@@ -1,6 +1,4 @@
-Finish creating Assignment Requirements Checklist
-
-Can I make multiple middle sections?
+Fix alignment on right side and below last article
 
 Consider gradients
 
