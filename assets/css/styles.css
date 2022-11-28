@@ -74,7 +74,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template: 66px 1fr 1fr 1fr 66px /* row */ / 200px 1fr 200px /* column */;
+  grid-template: 30px 1fr 1fr 1fr 66px /* row */ / 200px 1fr 200px /* column */;
   /* background: silver; */
   align-self: justify; 
   height: 90vh;
@@ -98,9 +98,6 @@ footer {
   margin: 5px;
 }
 
-/* header {
-  padding-top: 10px; Keeps text from going under nav bar when scrolled all the way up. } */
-
 article {
   padding: 30px;
   grid-column: 2 / 3;
@@ -111,6 +108,7 @@ article {
 aside {
   grid-column: 1, 3;
   grid-row: span 2;
+  padding: 10px;
 }
 
 /* Box around video  */
