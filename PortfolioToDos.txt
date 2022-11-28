@@ -1,5 +1,3 @@
-Fix alignment on right side and below last article
-
 Consider gradients
 
 Figure out defining my site colors in my CSS.
